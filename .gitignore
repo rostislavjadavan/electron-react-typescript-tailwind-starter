@@ -87,3 +87,7 @@ typings/
 
 # Electron-Forge
 out/
+
+# IDEs
+.vscode/
+.idea/
