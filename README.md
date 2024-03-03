@@ -13,7 +13,7 @@ This starter repository provides a ready-to-use project template for building cr
 ## Getting Started
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/electron-react-typescript-tailwind-starter.git
+git clone https://github.com/rostislavjadavan/electron-react-typescript-tailwind-starter.git
 ```
 
 Navigate to the project folder:
