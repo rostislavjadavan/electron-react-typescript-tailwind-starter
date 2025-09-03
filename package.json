@@ -4,7 +4,7 @@
   "description": "Ready-to-use project template for building cross-platform desktop applications with Electron, React, TypeScript, and Tailwind CSS.",
   "main": ".webpack/main",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "electron-forge start -- --no-sandbox",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
@@ -23,7 +23,6 @@
     "@electron-forge/maker-squirrel": "^7.8.0",
     "@electron-forge/maker-zip": "^7.8.0",
     "@electron-forge/plugin-webpack": "^7.8.0",
-    "@tailwindcss/postcss": "^4.0.17",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
@@ -43,11 +42,12 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
     "autoprefixer": "^10.4.21",
     "electron-squirrel-startup": "^1.0.1",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.0.17"
+    "tailwindcss": "^4.1.12"
   }
 }
